@@ -1,0 +1,643 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    background-color: #F3F3F3;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    z-index: 1;
+    position: absolute;
+    width: 100%;
+    padding: 10px;
+}
+nav div img{
+    /* margin: 15px; */
+    padding: 9px;
+    /* margin: 12px; */
+    color: white;
+    /* background-color: CADETBLUE; */
+    /* border: 1px solid #1d0031; */
+    /* border-radius: 50%; */
+    height: 100%;
+    width: 100%;
+}
+.bar1 div img{
+    width: 50px;
+}
+.sec1 .owl{
+    display: flex;
+    justify-content: space-between;
+    z-index: 1;
+    position: absolute;
+    width: 100%;
+    top: 332px;
+    padding-left: 17px;
+}
+
+.sec1 .owl .rating div p span{
+    font-size: 20px;
+}
+.sec1 .owl .rating{
+    display: flex;
+    align-items: center;
+    background-color:#1D0031;
+    color: white;
+    width: 113px;
+    height: 42px;
+}
+.sec1 .owl .rating img{
+    height: 50px;
+    width: 58px;
+}
+.sec1 div img.call{
+        position: absolute;
+        right: 28px;
+        height: 70px;
+        width: 70px;
+        top: 363px;
+        background-color: white;
+        border-radius: 50%;
+        padding: 8px;
+        box-shadow: grey 1px 2px 14px;
+    
+}
+.sec1 nav div{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.slider .slide{
+    display: flex;
+    overflow-x: scroll;
+}
+.slider .slide img{
+    width: 100%;
+    height: 400px;
+}
+
+.sec1 .half-sec{
+    padding: 20px;
+    line-height: 2;
+}
+.sec1 .half-sec h5{
+    color:#F94083 ;
+}
+.sec1 .half-sec button{
+        color: white;
+    background-color:#F94083;
+    border-radius: 22px;
+    padding: 20px 0px;
+    border: none;
+    margin: 13px 0px;
+    width: 100%;
+   
+}
+
+.details ul.menu li{
+    display: flex;
+}
+
+.sec2{
+    padding: 20px;
+    margin-top: 74px;
+}
+.sec2 .about button#myBtn img{
+    height: 15px;
+    margin-bottom: -5px;
+}
+
+
+
+.header .head-book{
+  
+    padding: 25px;
+    line-height: 27px;
+    /* background-color: #F3F3F3; */
+    margin-top: -5px;
+}
+.header .head-book .bar{
+    color: #F94083;
+}
+.header .head-book .open{
+    color: #0DBDBC;
+    font-weight: 600;
+}
+
+
+.header .head-book button{
+    background-color: #F94083;
+    width: 354px;
+    height: 50px;
+    color: white;
+    border-radius: 100px;
+    border: none;
+} 
+/* details section */
+.details nav{
+    background-color: #7323DC;
+    width: 100%;
+    padding: 0;
+}
+.details nav ul{
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+    padding: 20px 0px;
+    width: 100%;
+}
+.details nav ul li a{
+   text-decoration: none;
+   color: white;
+}
+.details .about{
+    padding: 25px;
+}
+.details .about button#myBtn img{
+    height: 19px;
+    width: 17px;
+    margin-left: 9px;
+    margin-bottom: -6px;
+}
+/* js id */
+#more {
+    display: none;
+    
+   
+}
+/* js */
+
+.Amenities{
+    padding: 25px;
+}
+.Amenities .btn-grp{
+    display: flex;
+    /* align-items: center;s */
+    justify-content: space-between;
+    padding: 10px;
+    
+}
+.Amenities .btn-grp button{
+    position: relative;
+    color: white;
+    border-radius: 50px;
+    padding: 5px 10px;
+    margin: 10px;
+    border: none;
+    width: 43%;
+    height: 50px;
+    background-image: url(assets/img3.png),linear-gradient(#eb01a5, #d13531);
+}
+.Amenities .btn-grp div.gradient1{
+    position: absolute;
+     background: linear-gradient(90deg, rgba(253,29,41,1) 0%, rgba(37,17,217,0.6502976190476191) 100%);
+    width: 100%;
+    opacity: 115.4;
+    height: 100%;
+    backdrop-filter: blur(1px);
+    top: 0px;
+    left: 0px;
+    border-radius: 22px;
+}
+.Amenities .btn-grp p.btn1{
+    position: relative;
+    z-index: 1;
+}
+/* btn2 */
+.Amenities .btn-grp div.gradient2{
+    position: absolute;
+    background: linear-gradient(90deg, rgba(29,237,253,1) 0%, rgba(18,5,73,0.7287289915966386) 100%);
+    width: 100%;
+    opacity: 115.4;
+    height: 100%;
+    backdrop-filter: blur(1px);
+    top: 0px;
+    left: 0px;
+    border-radius: 22px;
+}
+.Amenities .btn-grp p.btn2{
+    position: relative;
+    z-index: 1;
+}
+.Amenities .btn-grp p.btn3{
+    position: relative;
+    z-index: 1;
+}
+
+.Amenities .btn-grp div.gradient4{
+    position: absolute;
+    background: linear-gradient(90deg, rgba(253,198,29,1) 0%, rgba(45,41,130,0.6502976190476191) 100%);
+    width: 100%;
+    opacity: 115.4;
+    height: 100%;
+    backdrop-filter: blur(1px);
+    top: 0px;
+    left: 0px;
+    border-radius: 22px;
+}
+.Amenities .btn-grp p.btn4{
+    position: relative;
+    z-index: 1;
+}
+
+.Amenities .btn-grp div.gradient5{
+    position: absolute;
+    background: linear-gradient(90deg, rgba(253,138,29,1) 0%, rgba(34,17,110,0.6502976190476191) 100%);
+    width: 100%;
+    opacity: 115.4;
+    height: 100%;
+    backdrop-filter: blur(1px);
+    top: 0px;
+    left: 0px;
+    border-radius: 22px;
+}
+.Amenities .btn-grp p.btn5{
+    position: relative;
+    z-index: 1;
+}
+
+
+
+.spending{
+    padding: 25px;
+}
+.spending .spend-container{
+    padding-top: 10px;
+    line-height: 2;
+}
+.crowd .crowd-container .clock-size{
+    display: flex;
+align-items: center;
+
+}
+.crowd .crowd-container .clock-size img{
+    width: 44px;
+}
+
+
+    
+    
+   
+    
+  
+.header .header-slide .left-arrow img{
+        height: 38px;
+        width: 49px;
+        position: absolute;
+        top: 44px;
+        left: 10px;
+        padding: 3px;
+}
+   
+    
+    .header .offer{
+        display: flex;
+    align-items: center;
+    padding: 24px;
+   
+    justify-content: center;
+    font-weight: bold;
+}
+    
+    .header .offer img{
+        height: 25px;
+    width: 25px;
+    margin-right: 11px;
+    margin-bottom: -6px;
+    }
+   
+
+    .head-book .calls img {
+    position: absolute;
+    bottom: 462px;
+    right: 32px;
+    background: white;
+    border-radius: 50%;
+    width: 15%;
+    box-shadow: 0px 0px 5px 1px;
+    padding: 10px;
+    }
+    .header .nav-top{
+      position: absolute;
+      top: 38px;
+      right: 32px;
+    }
+    .header{
+        display: flex;
+        overflow-x: scroll;
+        
+        
+    }
+    .header .circle-nav{
+        display: inline-block;  
+        margin-right: 10px;
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+        background-color: #261036;
+        padding: 11px;
+    }
+    .header .share i{
+        position: absolute;
+    }
+
+    .header .head-book{
+        height: 300px;
+        background-color: #F3F3F3;
+        
+    }
+    .about button{
+        border: none;
+        color: #eb01a5;
+    }
+    .Amenities{
+        padding: 10px;
+    }
+    .Amenities div h2{
+        padding-left: 14px;
+        font-size: 20px;
+    }
+    .Amenities .btn-grp{
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+        padding: 0;
+    }
+    .Amenities .btn-grp button{
+        border-radius: 50px;
+        padding: 5px 10px;
+        margin: 10px;
+      
+    }
+    .spending{
+        padding: 5px 23px;
+    }
+    .spending .spend-container{
+        padding-top: 10px;
+        line-height: 2;
+    }
+     .gallery{
+        padding: 10px 0px;
+     }
+    .gallery .gallery-btn{
+        display: flex;
+        justify-content: space-between;
+        padding: 0 16px;
+        
+    }
+    .gallery .gallery-btn button{
+        
+        border: 1px solid #eb01a5;
+        color: #eb01a5;
+        padding: 5px 10px;
+    }
+    
+    .gallery .slide-img{
+        
+        display: flex;
+        /* justify-content: space-between; */
+        overflow-x: scroll;
+        
+    }
+    .gallery .slide-img img{
+        margin: 19px 20px;
+        height: 86px;
+    }
+    .deal{
+        padding: 25px;
+    }
+    .deal .about p{
+        padding-top: 14px;
+    padding-bottom: 1px;
+    }
+    .deal .about button#myBtn img{
+        height: 19px;
+        width: 17px;
+        margin-left: 9px;
+        margin-bottom: -6px;
+    }
+    .deal .about button#myBtn2 img{
+        height: 15px;
+        margin-bottom: -5px;
+    }
+    .crowd{
+        padding: 25px;
+    }
+    .crowd .density{
+        width: 50%;
+        padding: 20px 0px;
+    }
+     
+    .crowd .crowd-container .clock-txt{
+        display: flex;
+        align-items: center;
+    }
+    .crowd .crowd-container .clock-txt img{
+        width: 44px;
+    }
+
+   .score{
+    padding: 25px;
+   }
+   .score .per{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 23px;
+   }
+   .score .per div{
+    margin: 5px 10px;
+   }
+   .score button{
+    height: 30px;
+    border: none;
+    color: #F94083;
+   }
+
+    .pie-chart {
+        background: radial-gradient(
+            circle closest-side,
+            #FAFAFA 0,
+            #FAFAFA 50%,
+            transparent 41.58%,
+            transparent 66%,
+            #FAFAFA 0
+          ),
+          conic-gradient(
+            #4E79A7 0,
+            #4E79A7 38%,
+            #F28E2C 0,
+            #F28E2C 61%,
+            #E15759 0,
+            #E15759 77%,
+            #76B7B2 0,
+            #76B7B2 87%,
+            #59A14F 0,
+            #59A14F 93%,
+            #EDC949 0,
+            #EDC949 100%
+            
+          );position: relative;
+          width: 50px;
+          min-height: 50px;
+          margin: 0;
+    }
+   
+    .last-gallary .last-nav{
+        padding: 25px 20px 0px;
+    }
+   .last-gallary .last-cards{
+    display: flex;
+    overflow-x: scroll;
+  
+   }
+   .last-gallary .last-cards .card-1{
+    position: relative;
+    margin: 17px;
+    background-color: white;
+
+   }
+   .last-gallary .last-cards .book-table-arrow div img{
+    height: 25px;
+    width: 25px;
+   }
+   .last-gallary .last-cards .book-table-arrow{
+    display: flex;
+    position: absolute;
+    bottom: -18px;
+    right: 1px;
+    padding-bottom: 24px;
+}
+.last-gallary .last-cards .card-1 .card-txt p.bar{
+    color: #F94083;
+    font-weight: bold;
+}
+.last-gallary .last-cards .card-1 .card-txt p span.open{
+    color: #0DBDBE;
+    padding-left: 10px;
+    font-weight: 600;
+}
+.last-gallary .last-cards .book-table-arrow div{
+    margin-right: 20px;
+    color: #F94083;
+}
+   .last-gallary .card-1 .book-table{
+    display: flex;
+   }
+   .last-gallary .last-cards .card-1 img{
+    width: 380px;
+    height: 200px;
+   }
+   .last-gallary .last-cards .card-1 .circle-container{
+    position: absolute;
+    display: flex;
+    left: -111px;
+    top: -111px;
+}
+   
+   .last-gallary .last-cards .card-1 .card-txt{
+    padding: 15px;
+    height: 192px;
+    line-height: 31px;
+   }
+   .last-gallary .last-cards .card-1 .card-txt .circle{
+    display: inline-block;
+    padding-top: 3px;
+    margin-right: 10px;
+    text-align: center;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: white;
+    box-shadow: 0px 0px 5px 1px;
+   }
+   .last-gallary .last-cards .card-1 .card-txt .heart img{
+    height: 48px;
+    width: 51px;
+    padding: 10px;
+   } 
+   .last-gallary .last-cards .card-1 .card-txt .heart{
+    position: absolute;
+    display: flex;
+    z-index: 1;
+    bottom: 107px;
+    right: 14px; 
+
+   }
+   .last-gallary .last-cards .card-1 .card-txt .heart .owl{
+    position: absolute;
+    display: flex;
+    align-items: center;
+    color: white;
+    background-color: #1D0031;
+    height: 20px;
+    padding: 20px;
+    right: 212px;
+    bottom: 104px;
+   }
+   .last-gallary .last-cards .card-1 .card-txt .heart .owl .owl-size{
+    padding: 0px;
+    width: 55px;
+    height: 55px;
+   }
+
+
+
+
+/* percentage */
+
+.circle-big {
+    position: relative;
+    width: 115px;
+    height: 114px;
+    /* margin: 30px auto 25px auto; */
+}
+.circle-big .text {
+    position: absolute;
+    width: 100%;
+    top: 50%;
+    left: 52%;
+    font-size: 24px;
+    text-align: center;
+    font-weight: 400;
+    line-height: 22px;
+    transform: translate(-50%, -50%);
+    /* color: red; */
+    font-weight: 500;
+    font-weight: 500;
+    font-size: 16px;
+    font-size: 16px;
+}
+.circle-big svg{
+    overflow: hidden;
+}
+.circle-big .bg {
+    fill: none;
+    stroke-width: 8px;
+    stroke: #c4c4c429;
+}
+.circle-big .progress {
+    fill: none;
+    stroke-width: 8px;
+    stroke: #9c27b0;
+    stroke-linecap: round;
+    stroke-dasharray: 200.56;
+    stroke-dashoffset: 60;
+    transform: rotate(-90deg);
+    transform-origin: 50% 50%;
+    animation: big 1.5s ease-in-out;
+}
+section.score div.per div div#cont div.circle-big svg{
+    margin-left: -68px;
+}
+section.score div.per div div#cont div.circle-big div.text{
+    margin-left: -47px;
+}
+
+.icon-item{height:40px;width: 40px;border-radius: 50%;margin: 0;background: #1d0031;}
+.icon-item img{height: 100%;width: 100%;padding: 10px;}
